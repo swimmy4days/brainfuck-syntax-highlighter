@@ -1,0 +1,25 @@
+{
+    "name": "brainfuck-syntax-highlighter",
+    "displayName": "BrainFuck syntax highlighter",
+    "description": "A simple BrainFuck syntax highlighter",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "brainfuck",
+            "aliases": ["BrainFuck", "brainfuck"],
+            "extensions": [".bf"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "brainfuck",
+            "scopeName": "source.brainfuck",
+            "path": "./syntaxes/brainfuck.tmLanguage.json"
+        }]
+    }
+}

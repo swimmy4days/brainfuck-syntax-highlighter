@@ -1,60 +1,60 @@
 {
-    "name": "brainfuck-syntax-highlighter",
-    "displayName": "BrainFuck syntax highlighter",
-    "description": "A simple BrainFuck syntax highlighter",
-    "publisher": "swimmy4days",
-    "icon": "icon.png",
-    "readme": "README.md",
-    "author": {
-        "name": "Ido Drori"
-    },
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/swimmy4days/brainfuck-syntax-highlighter"
-    },
-    "bugs": {
-        "url": "https://github.com/swimmy4days/brainfuck-syntax-highlighter/issues"
-    },
-    "version": "0.0.2",
-    "engines": {
-        "vscode": "^1.42.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "galleryBanner": {
-        "color": "#242424",
-        "theme": "dark"
-    },
-    "keywords": [
-        "brainfuck",
-        "esoteric",
-        "vscode",
-        "syntax",
-        "highlighter",
-        "syntax-highlighter"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "brainfuck",
-                "aliases": [
-                    "BrainFuck",
-                    "brainfuck"
-                ],
-                "extensions": [
-                    ".bf"
-                ],
-                "configuration": "./language-configuration.json"
-            }
+  "name": "brainfuck-syntax-highlighter",
+  "displayName": "BrainFuck syntax highlighter",
+  "description": "A simple BrainFuck syntax highlighter",
+  "publisher": "swimmy4days",
+  "icon": "icon.png",
+  "readme": "README.md",
+  "author": {
+    "name": "Ido Drori"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swimmy4days/brainfuck-syntax-highlighter"
+  },
+  "bugs": {
+    "url": "https://github.com/swimmy4days/brainfuck-syntax-highlighter/issues"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.42.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "galleryBanner": {
+    "color": "#242424",
+    "theme": "dark"
+  },
+  "keywords": [
+    "brainfuck",
+    "esoteric",
+    "vscode",
+    "syntax",
+    "highlighter",
+    "syntax-highlighter"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "brainfuck",
+        "aliases": [
+          "BrainFuck",
+          "brainfuck"
         ],
-        "grammars": [
-            {
-                "language": "brainfuck",
-                "scopeName": "source.brainfuck",
-                "path": "./syntaxes/brainfuck.tmLanguage.json"
-            }
-        ]
-    }
+        "extensions": [
+          ".bf"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "brainfuck",
+        "scopeName": "source.brainfuck",
+        "path": "./syntaxes/brainfuck.tmLanguage.json"
+      }
+    ]
+  }
 }

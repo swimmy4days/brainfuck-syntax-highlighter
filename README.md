@@ -6,8 +6,12 @@ Just A tiny extension used to highlight your BrainFuck syntax.
 
 ## Release Notes
 
+### 0.0.2
+
+Added icon
+
 ### 0.0.1
 
-The initial release of this tiny side-project.
+Initial release
 
 -----------------------------------------------------------------------------------------------------------

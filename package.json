@@ -3,6 +3,7 @@
     "displayName": "BrainFuck syntax highlighter",
     "description": "A simple BrainFuck syntax highlighter",
     "publisher": "swimmy4days",
+    "icon": "icon.png",
     "readme": "README.md",
     "author": {
         "name": "Ido Drori"
